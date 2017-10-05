@@ -39,20 +39,20 @@ public class DNA
     	   switch(charArray[i])
            {
     	   	 case 'A':
-    	   		 charArray[i] = 'T';
-    	   		 break;
+    	   	     charArray[i] = 'T';
+    	   	     break;
     	   	 case 'T':
-                charArray[i] = 'A';
-                break;
+    	   	     charArray[i] = 'A';
+    	   	     break;
     	   	 case 'C':
-                charArray[i] = 'G';
-                break;
+    	   	     charArray[i] = 'G';
+    	   	     break;
     	   	 case 'G':
-                charArray[i] = 'C';
-                break;
+    	   	     charArray[i] = 'C';
+    	   	     break;
     	   	 default:
-                System.out.println("Bad DNA sequence");
-                break;
+    	   	     System.out.println("Bad DNA sequence");
+    	   	     break;
              }     
         }
    
